@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.10)
+project(leet VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include_directories(include)
+
+# Tìm tất cả file bài tập trong src
+file(GLOB SOURCES "src/*.cpp")
+
+# Xuất file thực thi vào bin/
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
+
+# Tạo mục tiêu build cho từng file cpp riêng biệt (để chạy lẻ từng bài)
+foreach(sourcefile ${SOURCES})
+    get_filename_component(name ${sourcefile} NAME_WE)
+    add_executable(${name} ${sourcefile})
+endforeach()

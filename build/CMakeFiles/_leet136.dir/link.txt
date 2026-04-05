@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/_leet136.dir/src/_leet136.cpp.o -o /Users/bmt2211/Documents/leet/bin/_leet136
