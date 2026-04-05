@@ -201,6 +201,30 @@ src/_leet201.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet201.cpp.s
 .PHONY : src/_leet201.cpp.s
 
+src/_leet232.o: src/_leet232.cpp.o
+.PHONY : src/_leet232.o
+
+# target to build an object file
+src/_leet232.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet232.cpp.o
+.PHONY : src/_leet232.cpp.o
+
+src/_leet232.i: src/_leet232.cpp.i
+.PHONY : src/_leet232.i
+
+# target to preprocess a source file
+src/_leet232.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet232.cpp.i
+.PHONY : src/_leet232.cpp.i
+
+src/_leet232.s: src/_leet232.cpp.s
+.PHONY : src/_leet232.s
+
+# target to generate assembly for a file
+src/_leet232.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet232.cpp.s
+.PHONY : src/_leet232.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... src/_leet201.o"
 	@echo "... src/_leet201.i"
 	@echo "... src/_leet201.s"
+	@echo "... src/_leet232.o"
+	@echo "... src/_leet232.i"
+	@echo "... src/_leet232.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
