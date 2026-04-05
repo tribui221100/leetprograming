@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "/Users/bmt2211/Documents/leet/bin/leet"
   "/Users/bmt2211/Documents/leet/bin/leet.pdb"
+  "CMakeFiles/leet.dir/src/_cleet232.c.o"
+  "CMakeFiles/leet.dir/src/_cleet232.c.o.d"
   "CMakeFiles/leet.dir/src/_leet136.cpp.o"
   "CMakeFiles/leet.dir/src/_leet136.cpp.o.d"
   "CMakeFiles/leet.dir/src/_leet190.cpp.o"
@@ -14,6 +16,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/leet.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -85,12 +85,12 @@ clean: CMakeFiles/leet.dir/clean
 CMakeFiles/leet.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bmt2211/Documents/leet/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target leet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bmt2211/Documents/leet/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target leet"
 .PHONY : CMakeFiles/leet.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/leet.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bmt2211/Documents/leet/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bmt2211/Documents/leet/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/leet.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bmt2211/Documents/leet/build/CMakeFiles 0
 .PHONY : CMakeFiles/leet.dir/rule
@@ -102,7 +102,7 @@ leet: CMakeFiles/leet.dir/rule
 # codegen rule for target.
 CMakeFiles/leet.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bmt2211/Documents/leet/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target leet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/bmt2211/Documents/leet/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target leet"
 .PHONY : CMakeFiles/leet.dir/codegen
 
 # clean rule for target.

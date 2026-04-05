@@ -129,6 +129,30 @@ leet/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/build
 .PHONY : leet/fast
 
+src/_cleet232.o: src/_cleet232.c.o
+.PHONY : src/_cleet232.o
+
+# target to build an object file
+src/_cleet232.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_cleet232.c.o
+.PHONY : src/_cleet232.c.o
+
+src/_cleet232.i: src/_cleet232.c.i
+.PHONY : src/_cleet232.i
+
+# target to preprocess a source file
+src/_cleet232.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_cleet232.c.i
+.PHONY : src/_cleet232.c.i
+
+src/_cleet232.s: src/_cleet232.c.s
+.PHONY : src/_cleet232.s
+
+# target to generate assembly for a file
+src/_cleet232.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_cleet232.c.s
+.PHONY : src/_cleet232.c.s
+
 src/_leet136.o: src/_leet136.cpp.o
 .PHONY : src/_leet136.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... leet"
+	@echo "... src/_cleet232.o"
+	@echo "... src/_cleet232.i"
+	@echo "... src/_cleet232.s"
 	@echo "... src/_leet136.o"
 	@echo "... src/_leet136.i"
 	@echo "... src/_leet136.s"
