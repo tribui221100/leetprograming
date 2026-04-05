@@ -7,7 +7,8 @@ int main() {
 
     _leet136(NRUN); 
     _leet190(NRUN); 
-    _leet201(RUN); 
+    _leet201(NRUN); 
+    _leet232(RUN); 
 
     cout << "\n==============================" << endl;
     return 0;

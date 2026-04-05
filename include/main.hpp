@@ -21,5 +21,6 @@ constexpr int NRUN = 0;
 void _leet136(int);
 void _leet190(int);
 void _leet201(int);
+void _leet232(int);
 
 #endif
