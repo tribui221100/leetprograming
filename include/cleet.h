@@ -6,6 +6,7 @@ extern "C" {
 #endif
 
 void _cleet232(int val);
+void _leet150(int val);
 
 #ifdef __cplusplus
 }

@@ -10,7 +10,8 @@ int main() {
     _leet190(NRUN); 
     _leet201(NRUN); 
     _leet232(NRUN);
-    _cleet232(1); 
+    _cleet232(NRUN); 
+    _leet150(1); 
 
     cout << "\n==============================" << endl;
     return 0;
