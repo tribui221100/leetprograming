@@ -3,6 +3,20 @@
 
 #define CHAR2INT(x) (x - '0')
 
+enum Ops {
+    Add,
+    Sub,
+    Mul,
+    Div
+};
+
+int add(int a, int b) {return a+b;}
+int sub(int a, int b) {return a-b;}
+int mul(int a, int b) {return a*b;}
+int pdiv(int a, int b) {return b == 0 ? 0 : a/b;}
+
+int (*calculator[])(int,int) = {add,sub,mul,pdiv};
+
 int evalRPN(char** tokens, int tokensSize) {
     int cnt = -1;
     int stoken_[10000];
@@ -10,19 +24,19 @@ int evalRPN(char** tokens, int tokensSize) {
     for(int i = 0; i < tokensSize; i++) {
         if(tokens[i] == "+") {
             cnt--;
-            stoken_[cnt] = stoken_[cnt] + stoken_[cnt+1];
+            stoken_[cnt] = calculator[Add](stoken_[cnt],stoken_[cnt+1]);
         }
         else if(tokens[i] == "-") {
             cnt--;
-            stoken_[cnt] = stoken_[cnt] - stoken_[cnt+1];
+            stoken_[cnt] = calculator[Sub](stoken_[cnt],stoken_[cnt+1]);
         }
         else if(tokens[i] == "*") {
             cnt--;
-            stoken_[cnt] = stoken_[cnt] * stoken_[cnt+1];
+            stoken_[cnt] = calculator[Mul](stoken_[cnt],stoken_[cnt+1]);
         }
         else if(tokens[i] == "/") {
             cnt--;
-            stoken_[cnt] = stoken_[cnt] / stoken_[cnt+1];
+            stoken_[cnt] = calculator[Div](stoken_[cnt],stoken_[cnt+1]);
         }
         else
         {
