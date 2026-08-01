@@ -177,6 +177,30 @@ src/_leet136.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet136.cpp.s
 .PHONY : src/_leet136.cpp.s
 
+src/_leet150.o: src/_leet150.c.o
+.PHONY : src/_leet150.o
+
+# target to build an object file
+src/_leet150.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet150.c.o
+.PHONY : src/_leet150.c.o
+
+src/_leet150.i: src/_leet150.c.i
+.PHONY : src/_leet150.i
+
+# target to preprocess a source file
+src/_leet150.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet150.c.i
+.PHONY : src/_leet150.c.i
+
+src/_leet150.s: src/_leet150.c.s
+.PHONY : src/_leet150.s
+
+# target to generate assembly for a file
+src/_leet150.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/leet.dir/build.make CMakeFiles/leet.dir/src/_leet150.c.s
+.PHONY : src/_leet150.c.s
+
 src/_leet190.o: src/_leet190.cpp.o
 .PHONY : src/_leet190.o
 
@@ -288,6 +312,9 @@ help:
 	@echo "... src/_leet136.o"
 	@echo "... src/_leet136.i"
 	@echo "... src/_leet136.s"
+	@echo "... src/_leet150.o"
+	@echo "... src/_leet150.i"
+	@echo "... src/_leet150.s"
 	@echo "... src/_leet190.o"
 	@echo "... src/_leet190.i"
 	@echo "... src/_leet190.s"
